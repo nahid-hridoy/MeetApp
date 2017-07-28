@@ -1,0 +1,660 @@
+/* Main CSS */
+
+
+/**
+Theme Name: Meet App
+Author: Nahid Hridoy
+E-mail: nahid_hridoy@outlook.com
+Copyright: JoomShaper
+version :1.0
+*/
+
+
+/**
+ * Table of Contents
+ * 1.0 - Fonts
+ * 2.0 - Reset css
+ * 2.1 - Pre-Loader css
+ * 3.0 - Header-Area & Menu
+ * 4.0 - Hero-Area
+ * 5.0 - How It Works
+ * 6.0 - Screen-Shots
+ * 7.0 - Reviews
+ * 8.0 - Footer-Area
+ */
+
+
+/* ==========================================================================
+   1.0 Fonts
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* ==========================================================================
+   2.0 Reset css
+   ========================================================================== */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+/* ==========================================================================
+    2.1 Pre-Loader Styling
+   ========================================================================== */
+
+#preloader {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+#preloader img {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-left: -90px;
+}
+
+
+/* ==========================================================================
+    3.0 Header-Area & Menu Styling
+   ========================================================================== */
+
+.header-area {
+    position: fixed;
+    z-index: 3;
+    margin: 0 !important;
+    width: 100%;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.stickyheader {
+    background-image: -webkit-linear-gradient(45deg, #FF5D00 0%, #FFB300 100%);
+    background-image: linear-gradient(45deg, #FF5D00 0%, #FFB300 100%);
+    height: 80px;
+}
+
+.stickyheader .logo a img {
+    margin-top: -16px;
+}
+
+.stickyheader .main-menu ul {
+    margin-top: -16px;
+}
+
+.logo a img {
+    padding-top: 28px;
+    margin-left: 28px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.logo a img {
+    padding-top: 28px;
+    margin-left: 28px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.menu-trigger {
+    display: none;
+    color: #fff;
+    float: right;
+    margin-top: -36px;
+    margin-right: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.navbar {
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.main-menu ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.main-menu ul li a {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0;
+    display: block;
+    padding: 46px 20px;
+    text-decoration: none;
+    -webkit-transition: .4s;
+    transition: .4s;
+    outline: none;
+}
+
+.main-menu ul li a:hover {
+    color: #3e3e3e;
+}
+
+
+/* ==========================================================================
+    4.0 Hero-Area Styling
+   ========================================================================== */
+
+.hero-area {
+    background-image: url(../img/hero-bg.png);
+    width: 100%;
+    height: 768px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 184px;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+.hero-image img {
+    padding: 34px;
+    margin-top: 120px;
+}
+
+.hero-description {
+    margin-top: 150px;
+    margin-left: 48px;
+    color: #FFFFFF;
+}
+
+.hero-description h1 {
+    font-size: 72px;
+    line-height: 92px;
+    font-weight: 400;
+}
+
+.hero-description p {
+    font-size: 18px;
+    padding: 10px 0;
+    width: 88%;
+}
+
+.hero-btn {
+    margin-left: 48px;
+    margin-top: 38px;
+}
+
+.hero-btn a {
+    text-decoration: none;
+}
+
+.hero-btn .btn-appstore {
+    height: 78px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-right: 18px;
+    color: #FF6A00;
+    text-align: left;
+    transition: .4s;
+}
+
+a.btn-appstore:hover {
+    background-color: #ececec;
+}
+
+.hero-btn .btn-appstore img {
+    float: left;
+    height: 38px;
+    margin: 20px 0;
+    margin-right: 15px;
+}
+
+.hero-btn .btn-appstore span {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    letter-spacing: 2.2px;
+}
+
+.hero-btn .btn-appstore h3 {
+    width: 212px;
+    display: block;
+    margin: 0;
+    font-size: 27px;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.g-play h3 {
+    font-weight: 200;
+}
+
+.g-play h3 strong {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ==========================================================================
+    5.0 HOW IT WORKS AREA Styling
+   ========================================================================== */
+
+.section-2 {
+    padding: 112px 0;
+    background-image: url(../img/shape1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.section-title h2 {
+    font-size: 48px;
+    color: #3B444D;
+    line-height: 102px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-title p {
+    font-size: 18px;
+    color: #999999;
+    line-height: 28px;
+    padding: 0 100px;
+    margin-bottom: 30px;
+}
+
+.single-service-box {
+    background: #FFFFFF;
+    box-shadow: 0 4px 6px 0 rgba(48, 48, 77, 0.05), 0 2px 4px 0 rgba(48, 48, 77, 0.05);
+    border-radius: 5px;
+    padding: 35px;
+}
+
+.single-service-box h3 {
+    font-size: 24px;
+    color: #3B444D;
+    letter-spacing: 0;
+    padding-top: 20px;
+}
+
+.single-service-box p {
+    font-size: 17px;
+    color: #878787;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+.service-box-1,
+.service-box-2,
+.service-box-3 a {
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+.service-box-1 a {
+    color: #D620ED;
+}
+
+.service-box-2 a {
+    color: #95DD32;
+}
+
+.service-box-3 a {
+    color: #FF6700;
+}
+
+.service-box-1 a i {
+    font-size: 14px;
+}
+
+.service-box-2 {
+    margin-top: 90px;
+}
+
+.service-box-3 {
+    margin-top: 180px;
+}
+
+
+/* ==========================================================================
+    6.0 Screen-Shots Area Styling
+   ========================================================================== */
+
+.section-3 {
+    padding: 60px 0;
+}
+
+.screenshots {
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.single-screen-shot {
+    float: left;
+    position: relative;
+    z-index: 1;
+    width: 33.333333%;
+}
+
+.single-screen-shot img {
+    z-index: 1;
+}
+
+.ScreenShot1 img {
+    margin-right: -58px;
+    margin-top: 56px;
+}
+
+.ScreenShot3 img {
+    margin-left: -76px;
+    margin-top: 56px;
+}
+
+.ScreenShot2 {
+    position: relative;
+    z-index: 2;
+    margin-left: -.5%;
+    margin-right: -.5%;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+
+/* ==========================================================================
+    7.0 Review Area Styling
+   ========================================================================== */
+
+.section-4 {
+    padding: 80px 0 230px 0;
+    background-image: url(../img/shape2.png);
+    background-position: 75% 42px;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+.single-review-item {
+    display: inline-block;
+    margin-top: 65px;
+}
+
+.client-main-review {
+    padding: 0 60px;
+    position: relative;
+    width: 100%;
+    height: 254px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 20px 0 rgba(135, 152, 164, 0.15);
+    border-radius: 3px;
+}
+
+.client-main-review:after {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    font-family: FontAwesome;
+    content: "\f10d";
+    right: 180px;
+    top: -80px;
+    z-index: -1;
+    text-decoration: none;
+    font-size: 80px;
+    color: #FF7100;
+    display: none;
+}
+
+.client-main-review.active:after {
+    display: block;
+}
+
+.left-arrow {
+    color: #DADADA;
+    float: left;
+    margin-top: 127px;
+    margin-left: -125px;
+}
+
+.left-arrow i {
+    font-size: 46px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.right-arrow {
+    color: #DADADA;
+    float: right;
+    margin-right: -680px;
+    margin-top: -173px;
+}
+
+.right-arrow i {
+    font-size: 46px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.left-arrow i:hover {
+    color: #FF7100;
+    cursor: pointer;
+}
+
+.right-arrow i:hover {
+    color: #FF7100;
+    cursor: pointer;
+}
+
+.client-image img {
+    margin-top: -28px;
+}
+
+.client-main-review h4 {
+    font-size: 18px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    margin-top: 16px;
+}
+
+.client-main-review p {
+    font-size: 16px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    line-height: 26px;
+    padding-top: 30px;
+}
+
+.client-main-review ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.client-main-review ul li {
+    display: inline-block
+}
+
+.rate-star-list i {
+    font-size: 14px;
+    color: #FF7100;
+    letter-spacing: 0;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #333;
+}
+
+.slide {
+    position: absolute;
+    width: 560px;
+    height: 280px;
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+
+/* ==========================================================================
+    8.0 Footer Area Styling
+   ========================================================================== */
+
+.section-5 {
+    padding: 40px 0;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+
+.section-5:after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: " ";
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    background-image: url(../img/shape1.png);
+    background-size: cover;
+}
+
+.app-download-section {
+    background-image: -webkit-linear-gradient(45deg, #FFB300 0%, #FF5D00 100%);
+    background-image: linear-gradient(45deg, #FFB300 0%, #FF5D00 100%);
+    border-radius: 10px;
+    padding: 60px;
+    margin-bottom: 100px;
+    margin-top: -40px;
+}
+
+.app-download-section h1 {
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: 102px;
+    text-align: center;
+}
+
+.app-download-section p {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 28px;
+    padding: 0 156px;
+    text-align: center;
+}
+
+.app-download-section .btn-appstore {
+    left: 2px;
+}
+
+.single-contact-info img {
+    margin-top: -12px;
+}
+
+.single-contact-info h3 {
+    font-size: 24px;
+    color: #313541;
+    letter-spacing: 0;
+}
+
+.single-contact-info p {
+    font-size: 16px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding-top: 6px;
+}
+
+.footer-scoial {
+    margin-top: 20px;
+}
+
+.footer-scoial ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-scoial ul li {
+    display: inline-block;
+}
+
+.footer-scoial ul li a {
+    width: 38px;
+    height: 38px;
+    float: left;
+    text-align: center;
+    color: #CFCFCF;
+    line-height: 40px;
+}
+
+.footer-scoial ul li a:hover {
+    color: #fff;
+    border-radius: 50%;
+    background-image: -webkit-linear-gradient(225deg, #FF5D00 0%, #FFB300 100%);
+    background-image: linear-gradient(-135deg, #FF5D00 0%, #FFB300 100%);
+}
+
+.footer-scoial ul li a i {
+    font-size: 18px;
+    letter-spacing: 0;
+}
+
+.copyright-footer p {
+    font-size: 14px;
+    color: #313541;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-top: 60px;
+}
