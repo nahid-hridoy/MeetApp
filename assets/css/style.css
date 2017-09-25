@@ -658,3 +658,13 @@ a.btn-appstore:hover {
     line-height: 22px;
     margin-top: 60px;
 }
+
+.copyright-footer a {
+    color: #ff6600;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.copyright-footer a:hover {
+    color: #222;
+}
